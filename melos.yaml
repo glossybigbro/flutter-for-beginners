@@ -1,0 +1,21 @@
+name: flutter_for_beginners
+
+packages:
+  - packages/**
+
+command:
+  bootstrap:
+    runPubGetInParallel: false
+    
+scripts:
+  analyze:
+    run: flutter analyze
+    description: Run Flutter analyze for all packages
+    
+  clean:
+    run: flutter clean
+    description: Clean all packages
+    
+  get:
+    run: flutter pub get
+    description: Get dependencies for all packages

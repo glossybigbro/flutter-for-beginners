@@ -1,0 +1,10 @@
+name: flutter_for_beginners
+description: A multi-package Flutter project for learning Flutter development
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# This is a workspace root - individual packages are in packages/
+# No dependencies are defined here as each package manages its own
