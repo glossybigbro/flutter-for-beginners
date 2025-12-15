@@ -45,13 +45,21 @@
 - [x] #4.3 BuildContext (10:18)
 - [x] #4.4 Widget Lifecycle (07:18)
 
-### #5 Pomodoro App (예정)
+### #5 Pomodoro App ✅
 
-- [ ] #5.0 User Interface (13:35)
-- [ ] #5.1 Timer (05:48)
-- [ ] #5.2 Pause Play (04:26)
-- [ ] #5.3 Date Format (10:27)
-- [ ] #5.4 Code Challenge (01:59)
+- [x] #5.0 User Interface (13:35)
+- [x] #5.1 Timer (05:48)
+- [x] #5.2 Pause Play (04:26)
+- [x] #5.3 Date Format (10:27)
+- [x] #5.4 Code Challenge (01:59)
+
+**📁 프로젝트**: [`packages/pomodoro`](./packages/pomodoro)
+
+**✨ 추가 기능**:
+
+- 타이머 리셋 버튼 (타이머 실행 중 또는 변경 시 표시)
+- 전체 리셋 버튼 (포모도로 카운트 >= 1일 때 표시)
+- 부드러운 애니메이션 효과 (페이드인/아웃 + 스케일)
 
 ### #6 Webtoon App (예정)
 
@@ -77,8 +85,7 @@
 
 ## 🌿 브랜치 전략
 
-- **`main`**: UI Challenge까지 완료된 상태 (현재)
-- **`feature/pomodoro-app`**: #5 Pomodoro App 개발용
+- **`main`**: UI Challenge + Pomodoro App까지 완료된 상태 (현재)
 - **`feature/webtoon-app`**: #6 Webtoon App 개발용
 
 ## 🔗 참고 자료
